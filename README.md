@@ -9,10 +9,12 @@ As a developer I want to demonstrate as well as highlight my skills for future e
 
 # Deployed Application
 
+
 # Screenshot
 Here is a preview of how my portfolio looks
 
 # Contributor(s)
+Renee Buchanan @ReneeDanielleB
 
 # License
 MIT License
