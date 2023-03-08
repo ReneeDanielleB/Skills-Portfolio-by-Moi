@@ -9,29 +9,97 @@ body {
   line-height: 1.5;
 }
 
-#nav {
-  display: flex;
-  flex: row;
+header {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 1px;
+  height: 90px;
+  background-color: rgb(51, 158, 158);
 }
 
-.navbar {
-  border: 5px;
-  margin: 5px;
-}
-
-.header div {
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
+header h1 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-right: 5px;
+  float: left;
   font-size: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  float: right;
+}
+
+nav li {
+  display: inline;
+}
+
+navbar {
+  border: 10px;
+  margin: 10px;
+  background-color: black;
+}
+
+img {}
+
+.hero-text {
+  text-align: end;
+  position: absolute;
+  top: 30%;
+  bottom: 70%;
+  left: 70%;
+  color: white;
+}
+
+h1, h2 {
   margin: 0;
 }
 
 p {
   margin: 0;
+}
+
+.page-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.profile-text {
+  
+}
+
+footer {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  background-color: rgb(51, 158, 158);
+}
+
+footer p {
+  display: inline;
+  
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen  and (min-width: 480px) {
@@ -47,13 +115,4 @@ p {
 @media screen and (max-width: 990px) {
   height: 100%;
   width: auto;
-}
-
-footer {
-  background-color: beige;
-  padding: 1px;
-}
-
-.contact {
-  font-color: white;
 }
