@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -33,7 +35,7 @@ header h1 {
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-right: 5px;
   overflow: hidden;
   position: sticky;
   float: right;
@@ -43,13 +45,24 @@ nav li {
   display: inline;
 }
 
-navbar {
+.navbar {
   border: 10px;
   margin: 10px;
   background-color: black;
 }
 
-img {}
+.hero-banner {
+  background-image: url(../images/02-hero-bg.jpg);
+  background-size: cover;
+  background-position: relative; 
+  background-color: #ffff; 
+  background-repeat: no-repeat; 
+  height: 650px;
+  width: 100%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
 
 .hero-text {
   text-align: end;
@@ -76,8 +89,56 @@ p {
   margin-bottom: 5px;
 }
 
+.know-me {
+  background-image: url(../images/london-views.jpg);
+  background-size: cover;
+  background-position: relative; 
+  background-color: #ffff; 
+  background-repeat: no-repeat; 
+  height: 150px;
+  width: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.about-text {
+  background-image: url(../images/02-portfolio-3.jpg);
+  background-size: cover;
+  background-position: relative; 
+  background-color: #ffff; 
+  background-repeat: no-repeat; 
+  height: 150px;
+  width: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.project {
+  background-image: url(../images/02-portfolio-2.jpg);
+  background-size: cover;
+  background-position: relative; 
+  background-color: #ffff; 
+  background-repeat: no-repeat; 
+  height: 150px;
+  width: 25%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
 .profile-text {
-  
+  background-image: url(../images/02-portfolio-4.jpg);
+  background-size: cover;
+  background-position: relative; 
+  background-color: #ffff; 
+  background-repeat: no-repeat; 
+  height: 150px;
+  width: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
 }
 
 footer {
@@ -89,12 +150,12 @@ footer {
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 2px;
+  text-align: center;
   background-color: rgb(51, 158, 158);
 }
 
 footer p {
-  display: inline;
-  
+  display: inline; 
 }
 
 .copyright {
