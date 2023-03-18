@@ -13,13 +13,13 @@ body {
 
 header {
   padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 1px;
+  padding-left: 0.5px;
+  padding-right: 0.5px;
+  padding-bottom: 0.5px;
   margin-top: 2px;
   margin-left: 2px;
   margin-right: 2px;
-  margin-bottom: 1px;
+  margin-bottom: 0.5px;
   height: 90px;
   background-color: rgb(51, 158, 158);
 }
@@ -59,8 +59,7 @@ nav li {
   background-repeat: no-repeat; 
   height: 650px;
   width: 100%; 
-  display: flex; 
-  align-items: center; 
+  display: flex;  
   justify-content: center;
 }
 
@@ -89,13 +88,20 @@ p {
   margin-bottom: 5px;
 }
 
+.container {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
+}
+
 .know-me {
   background-image: url(../images/london-views.jpg);
   background-size: cover;
   background-position: relative; 
   background-color: #ffff; 
   background-repeat: no-repeat; 
-  height: 150px;
+  height: 200px;
   width: 50%; 
   display: flex; 
   align-items: center; 
@@ -108,7 +114,7 @@ p {
   background-position: relative; 
   background-color: #ffff; 
   background-repeat: no-repeat; 
-  height: 150px;
+  height: 200px;
   width: 50%; 
   display: flex; 
   align-items: center; 
@@ -121,11 +127,11 @@ p {
   background-position: relative; 
   background-color: #ffff; 
   background-repeat: no-repeat; 
-  height: 150px;
+  height: 200px;
   width: 25%; 
   display: flex; 
   align-items: center; 
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .profile-text {
@@ -134,7 +140,7 @@ p {
   background-position: relative; 
   background-color: #ffff; 
   background-repeat: no-repeat; 
-  height: 150px;
+  height: 200px;
   width: 50%; 
   display: flex; 
   align-items: center; 
