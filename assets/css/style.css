@@ -21,7 +21,7 @@ header {
   margin-right: 2px;
   margin-bottom: 0.5px;
   height: 90px;
-  background-color: rgb(51, 158, 158);
+  background-color: rgb(146, 146, 244);
 }
 
 header h1 {
@@ -157,7 +157,7 @@ footer {
   margin-right: 5px;
   margin-bottom: 2px;
   text-align: center;
-  background-color: rgb(51, 158, 158);
+  background-color: rgb(146, 146, 244);
 }
 
 footer p {
