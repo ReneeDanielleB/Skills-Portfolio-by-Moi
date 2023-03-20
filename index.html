@@ -12,87 +12,102 @@
 <body>
   <!-- main logo / nav -->
   <header>
-    <nav id="nav" class="navbar">
-      <div>
+    <div class="navbar" id="nav">
+      <div class = "logo">
         <h1>Renee B.</h1>
       </div>
-      <div>
-        <ul >
-          <li>
-            <a href="#about">About Me</a>
-          </li>
-          <li>
-            <a href="#work">My Work</a>
-          </li>
-          <li>
-            <a href="#upcoming">Upcoming Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact Me</a>
-          </li>
-        </ul>
+      <div class = "links">
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+        <li>
+          <a href="#work">My Work</a>
+        </li>
+        <li>
+          <a href="#upcoming">Upcoming Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
+        </li>
       </div>
-    </nav>
+    </div>
   </header>
 
   <!-- hero banner -->
-  <section class="hero-banner">
-    <div class="hero-text">
+  <section id= "hero" class="hero-banner">
+    <div class ="hero-text">
       <h1><bold>Front End Developer</bold></h1>
     </div>
   </section>
-
-  <section class="page-section">
-    <div class="know-me">
-      <h2>Get To Know Me!</h2>
-      <p>Born & raised in London, I studied psychosocial studies at university but my true interest lies in web design, business, cooking and fashion accessories (also watching anime)</p>
-      <p>Fun facts: I attended boarding school & was also once a choir leader</p>
-    </div>
-  </section>
-
-  <section class="page-section" id="about">
-    <div class="about-text">
-     <h2>About Me</h2>
-     <p>Work History</p>
-     <p>My Coding Journey</p>
-    </div>
-  </section>
  
-  <!-- portfolio container -->
-  <section class="page-section" id="work">
-    <div class="profile-text" style="display: inline;">
+  <!-- about container-->
+  <section class="page-section" id="about">
+    <div class="about-text container">
+      <div class="center">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis a condimentum vitae sapien. Urna et pharetra pharetra massa massa ultricies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- work container -->
+  <section class="page-section work" id="work">
+    <div class="work-text container gradient-bg">
       <h2>My Work</h2>
-      <div class="container">
-        <div class="card" style="display:flex; justify-content: space-around;">
+      <div class="cards">
+        <div class="card">
           <div class="project">
-            <p><a href="https://github.com/ReneeDanielleB/Project-Horiseon-refrac-code-">Refraction</a></p>
+            <h3><a href="https://github.com/ReneeDanielleB/Project-Horiseon-refrac-code-">Horiseon SEO App</a></h3>
+            <p></p>
           </div>
-  
+        </div>
+
+        <div class="card">
           <div class="project">
-            <p><a href="https://github.com/ReneeDanielleB/travel-concierge-api-project">Sojourn (group project)</a></p>
+            <h3><a href="https://github.com/ReneeDanielleB/travel-concierge-api-project">Sojourn API App</a></h3>
+            <p></p>
           </div>
-  
+        </div>
+
+        <div class="card">
           <div class="project">
-            <p><a href="#">placeholder</a></p>
+            <h3><a href="https://github.com/ReneeDanielleB/Project-Horiseon-refrac-code-">Daily Planner App</a></h3>
+            <p></p>
           </div>
-  
+        </div>
+
+        <div class="card">
           <div class="project">
-            <p><a href="#">placeholder</a></p>
+            <h3><a href="https://github.com/ReneeDanielleB/Project-Horiseon-refrac-code-">Finances Console</a></h3>
+            <p></p>
           </div>
         </div>
       </div>
     </div>
   </section>
-    
-  <section class="page-section" id="upcoming">
-    <div class="profile-text">
-      <h2>Upcoming Projects</h2>
-      <p><a href="">Custom Fashion App</p>
-      <p><a href="">Project Paw - (website for a client)</p>
+
+  <section class="page-section upcoming" id="upcoming gradient-gb">
+    <div class="container">
+      <h2>Upcoming Projects 2023</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3><a href="#">Custom Fashion App</h3>
+        </div>
+
+        <div class="card">
+          <h3><a href="#">Project Paw (client)</h3>
+        </div>
+
+        <div class="card">
+          <h3><a href="#">Project Paw Game</h3>
+        </div>
+      </div>
+        
     </div>
   </section>
 
-  <!-- contact -->
+  <!-- contact me -->
   <footer class="page-section" id="contact">
     <h2>Contact Me</h2>
     <!--attach linkedin profile & icon-->
