@@ -74,6 +74,7 @@ a {
 
 section {
   padding: 3.5rem;
+  height: 40%;
 }
 
 .section .container {
@@ -120,18 +121,28 @@ p {
 }
 
 .page-section {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
+
+.gradient-bg{
+  background-image: linear-gradient(to right, white, lightgrey);
+}
+
+
 
 /*Work*/
 .work {
   text-align: center;
 }
 
+.work h2 {
+  font-size: 2rem;
+}
 .work .container {
   flex-direction: column;
 }
@@ -162,8 +173,7 @@ p {
   min-width: 170px;
 }
 
-.work .gradient-bg {
-}
+
 
 .work .project {}
 
@@ -174,7 +184,7 @@ p {
 }
 
 .about h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .about p {
@@ -255,9 +265,8 @@ p {
 }
 
 .upcoming .gradient-bg {
-  color: lightgrey;
+  background-image: linear-gradient(to right, lilac,lilac);
 }
- 
 
 /*Footer*/
 footer {
@@ -309,6 +318,7 @@ footer p {
   justify-content: center;
 }
 
+/*Responsive Design*
 @media screen  and (min-width: 480px) {
   height:;
   width: auto;
